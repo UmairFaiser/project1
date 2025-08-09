@@ -129,10 +129,10 @@ a {
   font-size: 0.9rem;
 }
 
-.post-title{
-    font-family: Geist Mono;
-    font-weight: 500;
-    font-size: 1rem;
+.post-title {
+  font-family: Geist Mono;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .post-list > p {
@@ -142,20 +142,20 @@ a {
   font-family: Geist Mono;
 }
 
-.newsletter-section{
-    grid-column: 2/3;
-    margin: 0.8rem 0 3rem 0;
-    font-family: Geist Mono;
-    font-weight: 300;
-    font-size: 1rem;
-    opacity: 80%;
+.newsletter-section {
+  grid-column: 2/3;
+  margin: 0.8rem 0 3rem 0;
+  font-family: Geist Mono;
+  font-weight: 300;
+  font-size: 1rem;
+  opacity: 80%;
 }
 
-.newsletter-input{
+.newsletter-input {
   margin: 1rem 0 1rem 0;
   padding: 0.8rem 2rem 0.8rem 2rem;
   background-color: transparent;
-  border: 0.5px solid #737373;
+  border: 0.5px solid rgb(115, 115, 115, 0.5);
   font-size: 1rem;
   color: #cccccc;
   transition: all 0.2s ease-in;
@@ -163,24 +163,31 @@ a {
   content: auto;
 }
 
-#sign-up-button{
-  padding: 0.8rem 2rem 0.8rem 2rem;
+#sign-up-button {
+  padding: 0.9rem 2rem 0.9rem 2rem;
   font-family: Geist Mono;
   font-weight: 700;
-  font-size: 0.8rem;
-
-
+  font-size: 0.9rem;
+  color: #cccccc;
+  background-color: rgb(17, 24, 39, 0.7);
+  border: none;
 }
 
 input:focus {
-  outline: none;            /* Removes the default browser outline */
-  border: 2px solid #737373; /* Adds your own custom border */
+  outline: none;
+  border: 2px solid #737373;
   box-shadow: 0 0 8px #737373;
 }
 
-hr{
+.about-blog2 {
+  margin: -1rem 0 4rem 0;
   grid-column: 2/3;
-  margin: 1rem 0 1rem 0;
-  background-color: #737373;
-  opacity: 0.2;
+  font-family: Geist Mono;
+  font-weight: 500;
+  font-size: 1rem;
+  opacity: 95%;
+}
+
+#mailto {
+  color: #f8fafc;
 }
